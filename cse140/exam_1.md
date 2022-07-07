@@ -14,7 +14,22 @@
 
 
 # Chapter 2: Combinational Logic Design
+|term|def.|
+|product / implicant|the AND of one or more literals|
+|minterm|a product involvign all of the inputs to the function|
+|sum|OR of one or more literals|
+|maxterm|a sum involving all the inputs to the function|
+|order of operations|from high to low precedence: NOT, AND, OR|
+|sum-of-products|OR of ANDs (few TRUE)|
+|product-of-sums|AND of ORs (few FALSE)|
+|contention|a node is driven both HIGH and LOW (X value)|
+|floating value|(Z value) node is being driven neither HIGh nor LOW|
+|tristate buffer|When Enable, pass input to output. When unEnable, output floats and doesn't interrupt "outside" circuit|
 
+# Chapter 5: Arithemtic Circuits
+
+
+# Additional
 - Circuit black box:
     - discrete-valued input and output terminals
     - functional specification (relationship between input and output)
